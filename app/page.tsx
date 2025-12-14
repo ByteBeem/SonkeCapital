@@ -240,7 +240,7 @@ function InfoCard({ icon, title, desc }) {
   );
 }
 
-function TeamCard({ role, name, email, phone }) {
+function TeamCard({ role, name, email, phone }: { role: string; name: string; email?: string; phone?: string }) {
   return (
     <div className="bg-gray-50 p-10 rounded-3xl shadow text-center">
       <Users size={36} className="mx-auto text-blue-900 mb-4" />
@@ -251,6 +251,7 @@ function TeamCard({ role, name, email, phone }) {
     </div>
   );
 }
+
 
 function TrustItem({ text }) {
   return (
