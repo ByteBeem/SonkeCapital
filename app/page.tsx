@@ -256,8 +256,7 @@ function TeamCard({ role, name, email, phone }: { role: string; name: string; em
   );
 }
 
-
-function TrustItem({ text }) {
+function TrustItem({ text }: { text: string }) {
   return (
     <div className="flex items-center justify-center gap-3 font-medium text-gray-700">
       <CheckCircle2 className="text-blue-900" size={20} />
@@ -265,6 +264,7 @@ function TrustItem({ text }) {
     </div>
   );
 }
+
 
 function Principle({ text }) {
   return (
