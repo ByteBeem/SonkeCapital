@@ -14,6 +14,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import Link from 'next/link';
+import { ReactNode } from 'react';
 
 export default function HomeClient() {
   return (
@@ -230,7 +231,9 @@ export default function HomeClient() {
 
 /* ---------- COMPONENTS ---------- */
 
-function InfoCard({ icon, title, desc }) {
+
+
+function InfoCard({ icon, title, desc }: { icon: ReactNode; title: string; desc: string }) {
   return (
     <div className="bg-white p-10 rounded-3xl shadow-lg text-center hover:shadow-xl transition">
       <div className="text-blue-900 mb-6 flex justify-center">{icon}</div>
@@ -239,6 +242,7 @@ function InfoCard({ icon, title, desc }) {
     </div>
   );
 }
+
 
 function TeamCard({ role, name, email, phone }: { role: string; name: string; email?: string; phone?: string }) {
   return (
