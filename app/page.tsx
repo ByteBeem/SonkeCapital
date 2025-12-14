@@ -266,7 +266,7 @@ function TrustItem({ text }: { text: string }) {
 }
 
 
-function Principle({ text }) {
+function Principle({ text }: { text: string }) {
   return (
     <div className="flex items-center gap-3">
       <CheckCircle2 className="text-blue-900" size={18} />
