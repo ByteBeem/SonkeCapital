@@ -23,7 +23,7 @@ export default function HomeClient() {
       {/* NAVBAR */}
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur border-b">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <h1 className="text-2xl font-extrabold text-blue-900">Sonke Capital</h1>
+          <h1 className="text-2xl font-extrabold text-blue-900">SR Capital</h1>
           <div className="hidden md:flex gap-8 font-medium text-sm text-gray-700">
             <Link href="/about">About</Link>
             <Link href="/trading">Trading</Link>
@@ -52,7 +52,7 @@ export default function HomeClient() {
             </h1>
 
             <p className="text-blue-100 text-lg mb-10">
-              Sonke Capital is a South African proprietary trading company focused
+              Summit Ridge Capital is a South African proprietary trading company focused
               on disciplined capital deployment across forex, CFDs, synthetic
               indices, and related instruments — trading exclusively with its
               own balance sheet.
@@ -91,10 +91,10 @@ export default function HomeClient() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
           <div>
             <h2 className="text-4xl font-bold text-blue-900 mb-6">
-              About Sonke Capital
+              About Summit Ridge Capital
             </h2>
             <p className="text-lg mb-6">
-              Sonke Capital Pty Ltd is registered with the Companies and
+              Summit Ridge Capital Pty Ltd is registered with the Companies and
               Intellectual Property Commission (CIPC) of South Africa and
               maintains valid B-BBEE status.
             </p>
@@ -149,13 +149,13 @@ export default function HomeClient() {
             Funding & Loan Opportunities
           </h2>
           <p className="text-blue-100 mb-10">
-            Sonke Capital may consider structured corporate loan arrangements
+            Summit Ridge Capital may consider structured corporate loan arrangements
             from individuals or institutions offering compliant lending
             solutions.
           </p>
 
           <p className="font-semibold mb-2">Submit proposals via email:</p>
-          <p className="text-xl">sonkecapital@outlook.com</p>
+          <p className="text-xl">srcapital@outlook.com</p>
         </div>
       </section>
 
@@ -196,15 +196,15 @@ export default function HomeClient() {
 
         <p className="mt-4 text-sm text-gray-600">
           Company Registration Number:{' '}
-          <strong>TO BE INSERTED</strong>
+          <strong>2025/960992/07</strong>
         </p>
       </section>
 
       {/* CONTACT */}
       <section className="py-28 bg-white text-center">
-        <h2 className="text-3xl font-bold mb-6">Contact Sonke Capital</h2>
+        <h2 className="text-3xl font-bold mb-6">Contact SR Capital</h2>
         <p className="text-lg mb-2">Funding & loan enquiries only</p>
-        <p className="text-xl font-semibold">sonkecapital@outlook.com</p>
+        <p className="text-xl font-semibold">srcapital@outlook.com</p>
 
         <div className="mt-6 flex justify-center gap-6 text-gray-600">
           <span className="flex items-center gap-2">
